@@ -714,6 +714,8 @@
     .social-btn { width: 100%; justify-content: center; }
     footer { flex-direction: column; gap: 0.8rem; padding: 2rem 1.5rem; text-align: center; }
     #experience { padding: 4rem 1.5rem; }
+    .about-img-col { display: flex; }
+    .about-img-row { display: grid; }
   }
 </style>
 </head>
@@ -771,7 +773,7 @@
   </div>
   <div class="hero-photo-side">
     <div class="hero-img-placeholder">
-      <img src="Assets/mainPic.jpeg" alt="foto klea">
+      <img src="Assets/main.jpeg" alt="main picture of klea">
     </div>
   </div>
   <div class="hero-scroll-hint">
@@ -819,14 +821,11 @@
   </div>
   <div class="about-img-col">
     <div class="about-img-main">
-      <svg width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1" opacity="0.5">
-        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
-      </svg>
-      <span>Photo</span>
+      <img src="Assets/upper.jpeg" alt="my photo">
     </div>
     <div class="about-img-row">
-      <div class="about-img-sm"><span>Photo</span></div>
-      <div class="about-img-sm"><span>Photo</span></div>
+      <div class="about-img-sm"><img src="Assets/lower1.jpeg" alt="my photo"></div>
+      <div class="about-img-sm"><img src="Assets/lower2.jpeg" alt="my photo"></div>
     </div>
   </div>
 </section>
@@ -976,10 +975,7 @@
   <!-- Main Gallery -->
   <div class="gallery-grid">
     <div class="gallery-item">
-      <svg width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
-        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
-      </svg>
-      <span>Portrait</span>
+      <img src="Assets/portrait.jpeg" alt="portrait">
     </div>
     <div class="gallery-item">
       <img src="Assets/idolPerform.jpeg" alt="perform">
